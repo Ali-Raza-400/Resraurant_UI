@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.container{
+    /* border:1px solid red; */
+    width: 80%;
+    margin:  auto;
+    padding: 1%;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.logo{
+    width: 80px;
+    /* height: 8px; */
+    width: 10%;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.img_responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+    float: right;
+    
+}
+.text-center{
+    text-align: center;
+}
+
+.menu ul{
+    list-style-type: none;
+
+}
+
+.menu ul li{
+    display: inline;
+    padding: 5px;
+}
+
+.menu{
+    line-height: 60px;
+}
+a{
+    color: #9b59b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
+}
+.food-Search{
+    background-image: url('../images/bg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding: 7% 0; 
+}
+.food-Search input[type="search"]{
+    width: 50%;
+    height: 10%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background-color: #9b59b6;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color:blue;
+    color: white;
+}
+
+
+h2{
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.catogries{
+    padding: 4% 0;
+}
+
+.box3{
+    /* border: 1px solid black; */
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.float-container{
+    position: relative;
+    /* left: 50%; */
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    /* float: left; */
+    left: 40%;
+
+}
+.text-white{
+    color: white;
+}
+h3{
+    font-size: 2rem;
+}
+
+.Food-Menu{
+    background-color: grey;
+    padding: 4% 0;
+}
+.food-menu-box{
+    /* border: 1px solid black; */
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius:15px ;
+}
+.food-menu-img{
+   width: 20%; 
+   float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left:8% ;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #95a5a6;
+
+}
+
+li{
+    /* background-color: #grey; */
+}

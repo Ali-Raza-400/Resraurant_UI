@@ -1,0 +1,209 @@
+App data
+// import React from 'react';
+// import Heading from './Heading';
+// import Para from './Para';
+// import List from './List';
+// let curdate=new Date();
+// curdate=curdate.getHours();
+// let greeting="";
+
+
+// const cssStyle={}
+
+
+// if(curdate >1 && curdate<12 ){
+//       greeting="Good Morning";
+//       cssStyle.color="blue";
+// }else if(curdate >=12 && curdate<19  ){
+//     greeting="Good Afternoon";
+//     cssStyle.color="orange";
+// }else{
+//     greeting="Good Night";
+//     cssStyle.color="black"
+// }
+
+// function App(){
+
+//   return (
+//     <div>
+// <h1  >Hello Sir,<span style={cssStyle}> {greeting}</span></h1></div>
+
+//     // <><Heading />
+//     // <Para />
+//     // <List /></>
+
+//   )
+// }
+// export default App;
+
+
+index.js Data
+// import React  from "react";
+// import ReactDOM from "react-dom";
+// var currdate = new Date().toLocaleDateString();
+// var currtym = new Date().toLocaleTimeString();
+// const ali="ali raza";
+// ReactDOM.render(
+
+// <div><h1>Hello, My name is Ali Raza{ali}</h1>
+// <p>today Date is {currdate}</p>
+// <p>current Time is {currtym}</p>
+// </div>,
+// document.getElementById('root')
+
+
+// );
+
+// import React from 'react';
+// import ReactDom  from 'react-dom';
+// import "./index.css"
+
+// ReactDom.render(
+
+// <div>
+
+// <h1 className="style">React Js Practice</h1>
+
+// <div className="img_div"><img src="https://picsum.photos/seed/picsum/300/300"/>
+// <img src="https://picsum.photos/id/237/300/300"/>
+// <img src="https://picsum.photos/300/300"/></div>
+// </div>
+
+// ,document.getElementById('root')
+
+// );
+// import React from 'react';
+// import ReactDOM  from 'react-dom';
+// // import "./index.css";
+// ReactDOM.render(
+
+//     <div>
+
+//     <h1 style={{color:'red'}}>My first Website using ReactJs</h1>
+//     <h3>My first code </h3>
+
+//     </div>,document.getElementById('root')
+// );
+
+
+// import React from "react";
+// import ReactDOM from 'react-dom';
+// import "./index.css";
+// import App from './App';
+
+
+// ReactDOM.render(
+
+// <div>
+// <App/>
+
+// </div>,document.getElementById('root')
+
+
+
+// );
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from  "./App";
+
+
+// ReactDOM.render(
+
+//     <>
+//     <App></App>
+
+//    </>,document.getElementById('root')
+
+
+
+// );
+
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import {add,sub,mult,div} from './Cal';
+
+
+
+// ReactDOM.render(
+
+//         <>
+//         <ol>
+//         <li>Sum of two integer a and b is {add(30,20)}</li>
+//         <li>difference of two integer a and b is {sub(30,20)}</li>
+//         <li>Multiplication of two integer a and b is {mult(30,20)}</li>
+//         <li>Division of two integer a and b is {div(30,20)}</li>
+//         </ol>
+//         </>
+
+
+//         ,document.getElementById('root')
+
+
+// );
+
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import Card from './Card'
+
+
+
+// ReactDOM.render(
+//      <> 
+//   
+//       <h1 style={{textAlign:'center'}}> I Am Creating A Gallery</h1>
+//      <Card hedig="I ma creating playlist" imgSrc="https://picsum.photos/200/200" anc="https://soundcloud.com/officialjubinnautiyal/raataan-lambiyan" />
+//      <Card hedig="I ma creating playlist" imgSrc="https://picsum.photos/200/200?grayscale" anc="https://soundcloud.com/officialjubinnautiyal/raataan-lambiyan" />
+//      <Card hedig="I ma creating playlist" imgSrc="https://picsum.photos/200/200" anc="https://soundcloud.com/officialjubinnautiyal/raataan-lambiyan" />
+//      <Card hedig="I ma creating playlist" imgSrc="https://picsum.photos/200/200" anc="https://soundcloud.com/officialjubinnautiyal/raataan-lambiyan" />
+//      <Card hedig="I ma creating playlist" imgSrc="https://picsum.photos/200/200" anc="https://soundcloud.com/officialjubinnautiyal/raataan-lambiyan" />
+//      <Card hedig="I ma creating playlist" imgSrc="https://picsum.photos/200/200" anc="https://soundcloud.com/officialjubinnautiyal/raataan-lambiyan" />
+//      <Card hedig="I ma creating playlist" imgSrc="https://picsum.photos/200/200" anc="https://soundcloud.com/officialjubinnautiyal/raataan-lambiyan" />
+//      <Card hedig="I ma creating playlist" imgSrc="https://picsum.photos/200/200" anc="https://soundcloud.com/officialjubinnautiyal/raataan-lambiyan" />
+//      </>,document.getElementById('root')
+// );
+
+// import React from 'react';
+// import ReactDom from 'react-dom';
+// import Card from './Card'
+// import arr from "./123"
+// import "./App.css"
+
+// ReactDom.render(
+// <>
+// <h1>My nem is Ali</h1>
+//         {arr.map(function ncode(val){
+//                 return(
+//                 <Card
+//                 imgSrc={val.imgSrc}
+//                 title={val.title}
+//                 sname={val.sname}
+//                 link={val.link}
+//             />
+//                 );
+//         })}
+
+                
+//         </>
+
+
+
+//         ,document.getElementById('root')
+
+
+// );
+// import React from "react";
+// import ReactDOM from "react-dom";
+
+
+// ReactDOM.render(
+
+// <h1>my name is Ali</h1>
+// ,document.getElementById('root')
+// );
+
+
+
+
